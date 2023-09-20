@@ -5,7 +5,6 @@ Project in collaboration with Berkeley Deep Drive on driver's attention in manua
 It uses Pupil Labs and a driving simulator.
 
 The main goal of this code is to allow for collection and analysis of eye movement data from Pupil Labs glasses avoiding the use of their GUI.
-
 Heavily based on behinger/etcomp repository (https://github.com/behinger/etcomp). We deeply appreciate the great code they put together.
 
 This project includes:
@@ -15,18 +14,18 @@ This project includes:
 
 
 ## Instructions
-1. Clone project and intialize sub-modules
+### 1. Clone project and intialize sub-modules
 
 `git clone https://github.com/tere93/bdd-driveratt`
 
 `git submodule update --init`
 
-2. Run Make file: generates a virtual environment (bdddriverattenv), runs requirements.pip with all required python packages and requirements for Pupil Labs.
+### 2. Run Make file: generates a virtual environment (bdddriverattenv), runs requirements.pip with all required python packages and requirements for Pupil Labs.
 
 `make
 `
 
-3. You will still need to install the following packages with sudo/root privileges:
+### 3. You will still need to install the following packages with sudo/root privileges:
 
 `pkg-config
 `
