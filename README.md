@@ -1,5 +1,8 @@
 # bdd-driveratt
-Project in collaboration with Berkeley Deep Drive on driver's attention in manual, semi-autonomous and autonomous vehicles. It uses Pupil Labs and a driving simulator.
+
+## Project Description
+Project in collaboration with Berkeley Deep Drive on driver's attention in manual, semi-autonomous and autonomous vehicles. 
+It uses Pupil Labs and a driving simulator.
 
 The main goal of this code is to allow for collection and analysis of eye movement data from Pupil Labs glasses avoiding the use of their GUI.
 
@@ -11,8 +14,8 @@ This project includes:
 - Makefile for all requirements.
 
 
-# Instructions
-1. Clone project and intialize submodules
+## Instructions
+1. Clone project and intialize sub-modules
 
 `git clone https://github.com/tere93/bdd-driveratt`
 
@@ -41,7 +44,7 @@ This project includes:
 `xorg-dev libglu1-mesa-dev` <-- needed for libglew
 
 
-# To do:
+## To do:
 - Add simulator environment scenarios (coded on Prescan/simulink) for driving experiments.
 - Add analysis to categorize eye movements.
 
